@@ -16,7 +16,7 @@ String petType = JOptionPane.showInputDialog("what pet do you want?");
 			//    Make sure to customize the title and question too.
 			int task = JOptionPane.showOptionDialog(null, "What do you want to do to make your pet happy?", "Pet Activities", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "Cuddle", "Sate hunger/Quench thirst", "Bathe" }, null);
-JOptionPane.showo
+
 			// 5. Use user input to call the appropriate method created in step 4.
 			 if(task==0) {
 				cuddle();
